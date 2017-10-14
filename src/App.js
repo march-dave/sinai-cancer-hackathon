@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'react-bootstrap';
 
 class App extends Component {
 
@@ -34,8 +35,8 @@ class App extends Component {
               <div>Do you Smoke?</div>
             </div>
             <div style={{ margin: 80, padding: 80, border: '0px solid black' }}>
-              <div style={{float: 'left', width: '50%'}}><button onClick={this.YesClick.bind(this)}>Yes</button></div>
-              <div style={{float: 'left', width: '50%'}}><button onClick={this.NoClick.bind(this)}>No</button></div>
+              <div style={{float: 'left', width: '50%'}}><Button bsStyle="danger" onClick={this.YesClick.bind(this)}>Yes</Button></div>
+              <div style={{float: 'left', width: '50%'}}><Button bsStyle="success" onClick={this.NoClick.bind(this)}>No</Button></div>
             </div>
           </div>
 
