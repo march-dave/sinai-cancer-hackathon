@@ -14,7 +14,15 @@ class App extends Component {
 
         <p className="App-intro">
           
-          11111111
+        <table>
+        <tbody><tr> 
+            <td>Did you know?</td>
+          </tr>
+          <tr>
+            <td>Yes</td>
+            <td>No</td>
+          </tr>
+        </tbody></table>
 
         </p> 
 
