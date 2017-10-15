@@ -10,31 +10,23 @@ class Didyouknow extends Component {
 
     render() {
         return (
-            <div style={{margin: 80, padding: 80}}>
+
+            <div>
+            <p className="App-intro">
+            <div style={{margin: 80, padding: 90}}>
             
                 <h2 style={{display: 'flex', justifyContent: 'center'}}> Did you know?</h2>
                 <Jumbotron>
                 <div style={{border: '0px solid black'}}> 
                   <br />
-                  Being overweight or obese increases risks for many cancers
+                   <div style={{marginLeft: 20 }}> Being overweight or obese increases risks for many cancers</div>
 
-                    <li>
-                        Breast Cancer</li>
-                    <li>
-                        Colon Cancer
-                        </li>
-                    <li>
-                        Endometrium
-                        </li>
-                    <li>
-                        Esophagus
-                        </li>
-                    <li>
-                        Kidney
-                        </li>
-                    <li>
-                        Pancreas
-                        </li>
+                    <li style={{marginLeft: 20 }}>Breast Cancer</li>
+                    <li style={{marginLeft: 20 }}>Colon Cancer</li>
+                    <li style={{marginLeft: 20 }}>Endometrium</li>
+                    <li style={{marginLeft: 20 }}>Esophagus</li>
+                    <li style={{marginLeft: 20 }}>Kidney</li>
+                    <li style={{marginLeft: 20 }}>Pancreas</li>
 
                   <br />
                   
@@ -44,10 +36,15 @@ class Didyouknow extends Component {
 
                 <ReactPlayer url='https://www.youtube.com/watch?v=VC3hkufv8rU' playing />
 
+                <br />
 
                 <div style={{float: 'left', width: '50%'}}><Button bsStyle="success" onClick={this.ClickSubmit.bind(this)}>Check your weight</Button>
                 </div>
               
+            </div>
+
+
+            </p>
             </div>
         );
     }
