@@ -13,6 +13,7 @@ import Enterheight from './Enterheight';
 import BMIReturn from './BMIReturn';
 import Didyouknow from './Didyouknow';
 import Checkyourbmi from './Checkyourbmi';
+import Congratulations from './Congratulations';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -29,6 +30,7 @@ ReactDOM.render(
             <Route path="/bmiReturn" component={BMIReturn}/>
             <Route path="/Didyouknow" component={Didyouknow}/>       
             <Route path="/Checkyourbmi" component={Checkyourbmi}/>                        
+            <Route path="/Congratulations" component={Congratulations}/>                        
             <Route component={NoMatch}/>
           </Switch>
         </div>

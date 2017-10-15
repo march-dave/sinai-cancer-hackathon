@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button, FormControl, ControlLabel, FormGroup, HelpBlock, Jumbotron, Grid, Row, Col, Image } from 'react-bootstrap';
-
+import ReactPlayer from 'react-player'
 
 class Didyouknow extends Component {
 
@@ -41,6 +41,8 @@ class Didyouknow extends Component {
                 
                 </div>
                 </Jumbotron>
+
+                <ReactPlayer url='https://www.youtube.com/watch?v=VC3hkufv8rU' playing />
 
 
                 <div style={{float: 'left', width: '50%'}}><Button bsStyle="success" onClick={this.ClickSubmit.bind(this)}>Check your weight</Button>

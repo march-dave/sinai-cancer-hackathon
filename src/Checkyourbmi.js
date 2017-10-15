@@ -4,6 +4,11 @@ import './App.css';
 import ReactPlayer from 'react-player'
 
 class Checkyourbmi extends Component {
+
+    ClickSubmit() {
+        window.location = '/Congratulations';
+    }
+
     render() {
 
         return (
@@ -21,7 +26,7 @@ class Checkyourbmi extends Component {
 
                 </Jumbotron>
 
-            <ReactPlayer url='https://www.youtube.com/watch?v=VC3hkufv8rU' playing />
+            <ReactPlayer url='https://www.youtube.com/watch?v=2dU-t0BwpI4' playing />
 
             <Checkbox checked readOnly>
             Text me
@@ -31,6 +36,10 @@ class Checkyourbmi extends Component {
             Email me
             </Checkbox>
               
+            
+            <div style={{float: 'left', width: '50%'}}><Button bsStyle="success" onClick={this.ClickSubmit.bind(this)}>Congratulations</Button>
+                </div>
+
             
 
 
