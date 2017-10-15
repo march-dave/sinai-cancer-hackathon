@@ -16,13 +16,14 @@ class Checkyourbmi extends Component {
             
                 <Jumbotron>
                     {/* <h2>Underweight BMI less than 18.5</h2> */}
-                    <h2>Your BMI is unhealthy</h2>
+                    <h3>Your BMI is unhealthy</h3>
 
-                    <div style={{backgroundColor: 'yellow'}}><h2>
+                    <div style={{margin: 5, padding: 5, backgroundColor: '#ffef96'}}>
+                        <h3>
                         You can reduce cancer risk by losing weight
                         <br />Here are some suggestions
                         
-                        </h2></div>
+                        </h3></div>
 
                 </Jumbotron>
 

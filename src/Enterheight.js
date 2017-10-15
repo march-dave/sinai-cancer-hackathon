@@ -11,7 +11,7 @@ class Enterheight extends Component {
     render() {
         return (
             
-            <div style={{ margin: 80, padding: 80, border: '1px solid black' }}>
+            <div style={{ margin: 80, padding: 80, border: '1px solid black',  borderRadius: 25 }}>
 
                 <form> 
                     <FormGroup

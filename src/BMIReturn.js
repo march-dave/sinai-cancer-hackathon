@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, FormControl, ControlLabel, FormGroup, HelpBlock, Jumbotron } from 'react-bootstrap';
+import { Button, FormControl, ControlLabel, FormGroup, HelpBlock, Jumbotron, Grid, Row, Col } from 'react-bootstrap';
 import './App.css';
 
 class BMIReturn extends Component {
@@ -13,8 +13,18 @@ class BMIReturn extends Component {
             <div style={{margin: 80, padding: 80}}>
             
                 <Jumbotron>
-                    <h2>Your BMI is 28.3</h2>
+                    <h2 style={{textAlign: 'center'}}>Your BMI is 28.3</h2>
                 </Jumbotron>
+
+                {/* <Grid>
+                    <Row className="show-grid">
+                    <Col xs={14} md={8}>
+                    <div style={{margin:1, padding:1, backgroundColor: '#40ff00'}}><h2>healthy 18.5 - 24.9</h2></div>
+                    </Col>
+                    </Row>
+                </Grid> */}
+
+                {/* <Button>healthy 18.5 - 24.9</Button> */}
 
                 <div style={{margin:1, padding:1, backgroundColor: '#40ff00'}}><h2>healthy 18.5 - 24.9</h2></div>
                     <div style={{margin:1, padding:1, backgroundColor: '#ffff00'}}><h2>overweight > 25</h2></div>
