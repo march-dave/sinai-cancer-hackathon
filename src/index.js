@@ -11,6 +11,8 @@ import Disclaimer from './Disclaimer';
 import Costofcancer from './Costofcancer';
 import Enterheight from './Enterheight';
 import BMIReturn from './BMIReturn';
+import Didyouknow from './Didyouknow';
+import Checkyourbmi from './Checkyourbmi';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -25,6 +27,8 @@ ReactDOM.render(
             <Route path="/costofcancer" component={Costofcancer}/>
             <Route path="/enterheight" component={Enterheight}/>
             <Route path="/bmiReturn" component={BMIReturn}/>
+            <Route path="/Didyouknow" component={Didyouknow}/>       
+            <Route path="/Checkyourbmi" component={Checkyourbmi}/>                        
             <Route component={NoMatch}/>
           </Switch>
         </div>
