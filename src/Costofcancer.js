@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Smoking extends Component {
+class Costofcancer extends Component {
     render() {
         return (
             <div>
-                You can reduce cancer risk by .......
+                Did you know?
             </div>
         );
     }
 }
 
-export default Smoking;
+export default Costofcancer;
