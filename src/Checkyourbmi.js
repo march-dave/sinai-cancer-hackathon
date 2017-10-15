@@ -36,12 +36,8 @@ class Checkyourbmi extends Component {
             Email me
             </Checkbox>
               
-            
             <div style={{float: 'left', width: '50%'}}><Button bsStyle="success" onClick={this.ClickSubmit.bind(this)}>Congratulations</Button>
                 </div>
-
-            
-
 
             </div>
         );
