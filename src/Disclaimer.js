@@ -15,7 +15,7 @@ class Disclaimer extends Component {
 
                 <Jumbotron>
                     <p style={{margin: 20, padding: 5}} >
-                        Disclaimer: This i san educational tool and does not constitute medical advice.
+                        Disclaimer: This is an educational tool and does not constitute medical advice.
                     </p>
                     <Image src="./thumbnail.png" rounded />
                 </Jumbotron>

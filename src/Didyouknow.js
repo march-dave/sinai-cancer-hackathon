@@ -34,8 +34,6 @@ class Didyouknow extends Component {
                 </div>
                 </Jumbotron>
 
-                {/* <ReactPlayer url='https://www.youtube.com/watch?v=VC3hkufv8rU' playing /> */}
-
                 <br />
 
                 <div style={{float: 'left', width: '50%'}}><Button bsStyle="success" onClick={this.ClickSubmit.bind(this)}>Check your weight</Button>
