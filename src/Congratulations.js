@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, FormControl, ControlLabel, FormGroup, HelpBlock, Jumbotron, Checkbox } from 'react-bootstrap';
+import ReactPlayer from 'react-player'
 
 class Congratulations extends Component {
     render() {
@@ -12,6 +13,9 @@ class Congratulations extends Component {
                     Please contiune to take stpes for health & longevity!
 
                 </Jumbotron>
+
+                <ReactPlayer url='https://www.youtube.com/watch?v=5drfFGxZSro' playing />
+
             </div>
         );
     }
