@@ -5,6 +5,8 @@ class Smoking extends Component {
         return (
             <div>
                 You can reduce cancer risk by .......
+
+                
             </div>
         );
     }

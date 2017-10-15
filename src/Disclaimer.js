@@ -9,7 +9,6 @@ class Disclaimer extends Component {
 
                 <br />
                 <Link to="/Costofcancer">Cost of cancer</Link>
-
                 
             </div>
         );

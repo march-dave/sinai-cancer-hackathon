@@ -9,7 +9,8 @@ import Smoking from './Smoking';
 import NoMatch from './NoMatch';
 import Disclaimer from './Disclaimer';
 import Costofcancer from './Costofcancer';
-
+import Enterheight from './Enterheight';
+import BMIReturn from './BMIReturn';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -22,6 +23,8 @@ ReactDOM.render(
             <Route path="/smoking" component={Smoking}/>
             <Route path="/disclaimer" component={Disclaimer}/>
             <Route path="/costofcancer" component={Costofcancer}/>
+            <Route path="/enterheight" component={Enterheight}/>
+            <Route path="/bmiReturn" component={BMIReturn}/>
             <Route component={NoMatch}/>
           </Switch>
         </div>

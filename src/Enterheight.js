@@ -1,28 +1,47 @@
 import React, { Component } from 'react';
+import { Button, FormControl, ControlLabel, FormGroup, HelpBlock } from 'react-bootstrap';
+import './App.css';
 
 class Enterheight extends Component {
+
+    ClickSubmit() {
+        window.location = '/BMIReturn';
+    }
+
     render() {
         return (
-            <div>
-                Please enter Height? 
+            
+            <div style={{ margin: 80, padding: 80, border: '1px solid black' }}>
 
-                Height: inch/cm: 5'66'''
+                <form> 
+                    <FormGroup
+                    controlId="formBasicText"
+                    >
+                    <ControlLabel>Please enter Height?  inch/cm:</ControlLabel>
+                    <FormControl
+                        type="text"
+                        placeholder="Enter text"
+                        value="5' 6''"
+                    />
 
-                Weight: lb/kg: 75lb
+                    <ControlLabel>Weight:lbs/kg</ControlLabel>
+                    <FormControl
+                        type="text"
+                        placeholder="Enter text"
+                        value="175 lb"
+                    />
 
-                BMI: 28.3
+                    <ControlLabel>BMI</ControlLabel>
+                    <FormControl
+                        type="text"
+                        placeholder="Enter text"
+                        value="28.3"
+                    />                    
+                  
+                    </FormGroup>
+                </form>
 
-
-                Your BMI is 28.3
-
-                under weight BMI < 18.5
-                health BMI 18.5 - 24.9
-                overight BMI > 25
-                obese BMI > 30
-
-
-                Your BMI is under weight healthy range or unhealth range
-
+                <div style={{float: 'left', width: '50%'}}><Button bsStyle="success" onClick={this.ClickSubmit.bind(this)}>Submit</Button></div>
 
             </div>
         );
