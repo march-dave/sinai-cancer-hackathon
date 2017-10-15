@@ -34,7 +34,7 @@ class Didyouknow extends Component {
                 </div>
                 </Jumbotron>
 
-                <ReactPlayer url='https://www.youtube.com/watch?v=VC3hkufv8rU' playing />
+                {/* <ReactPlayer url='https://www.youtube.com/watch?v=VC3hkufv8rU' playing /> */}
 
                 <br />
 
