@@ -11,28 +11,27 @@ class App extends Component {
 
         <p className="App-intro">
 
-        <video
+          <video
             src="https://youtu.be/5drfFGxZSro"
             type="video/mp4" autoPlay="autoplay" loop
             key='b'>
-        </video>
+          </video>
 
-          <div style={{margin: 80, padding: 80}}>
-            
-                <Jumbotron>
-                <div style={{border: '0px solid black'}}> 
-                  <br />
-                  <h2>Your First 3 Steps</h2>
-                  <br />
-                  <Link to="/Disclaimer">Disclaimer</Link>
-                
-                </div>
-                </Jumbotron>
+          <div style={{ margin: 80, padding: 80 }}>
 
-              
-            </div>
+            <Jumbotron>
+              <div style={{ border: '0px solid black' }}>
+                <br />
+                <h2>Your First 3 Steps</h2>
+                <br />
+                <Link to="/Disclaimer">Disclaimer</Link>
 
-        </p> 
+              </div>
+            </Jumbotron>
+
+          </div>
+
+        </p>
 
       </div>
     );

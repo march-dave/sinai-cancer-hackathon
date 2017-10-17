@@ -8,19 +8,18 @@ class Disclaimer extends Component {
         window.location = '/Didyouknow';
     }
 
-
     render() {
         return (
-            <div style={{margin: 80, padding: 80}}>
+            <div style={{ margin: 80, padding: 80 }}>
 
                 <Jumbotron>
-                    <p style={{margin: 20, padding: 5}} >
+                    <p style={{ margin: 20, padding: 5 }} >
                         Disclaimer: This is an educational tool and does not constitute medical advice.
                     </p>
                     <Image src="./thumbnail.png" rounded />
                 </Jumbotron>
                 <br />
-                <div style={{float: 'left', width: '50%'}}><Button bsStyle="success" onClick={this.ClickSubmit.bind(this)}>Did you know?</Button>
+                <div style={{ float: 'left', width: '50%' }}><Button bsStyle="success" onClick={this.ClickSubmit.bind(this)}>Did you know?</Button>
                 </div>
 
             </div>
