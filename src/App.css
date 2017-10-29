@@ -11,7 +11,10 @@ header {}
 
 footer {}
 
-section {}
+section {
+    display: flex;
+    flex-direction: column;
+}
 
 main {}
 
