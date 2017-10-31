@@ -21,6 +21,9 @@ main {
     padding: 10px;
 }
 
-nav {}
+nav {
+    margin: 10px;
+    padding: 10p;
+}
 
 aside {}
